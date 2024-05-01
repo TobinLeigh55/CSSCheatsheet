@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>CSS CheatSheet!</title>
+</head>
+<header>
+    <img class="logo" src="resources\images\CSSlogo.png"/>
+    <div class="title-container">
+        <h1>CSS Cheatsheet</h1>
+        <h2>A few of the more complicated examples found so far in the Codecademy course.</h2>
+    </div>  
+</header>
+<body>
+    <div class="declaration">
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS Declaration Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;link href="styles.css" rel="stylesheet"/&gt;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="selectors">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Key Selectors</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Selector</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Class</td>
+                    <td>.class</td>
+                </tr>
+                <tr>
+                    <td>ID's</td>
+                    <td>#id</td>
+                </tr>
+                <tr>
+                    <td>Attributes</td>
+                    <td>[attribute]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="advanced">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Advanced Selector Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Html Example</td>
+                    <td>&lt;img src='/images/seasons/winter.jpg'&gt;</td>
+                </tr>
+                <tr>
+                    <td>CSS Example Selector</td>
+                    <td id="csscode">
+                        <pre><code>img[src*='winter'] {
+                            height: 50px;
+                        }</code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The CSS selects an img with attribute 'src' that contains the string 'winter'</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
